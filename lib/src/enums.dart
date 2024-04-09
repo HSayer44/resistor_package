@@ -61,7 +61,6 @@ enum Multiplier {
   static Multiplier fromString(String color) {
     color = color.toLowerCase();
     for (Multiplier multiplier in Multiplier.values) {
-      print(multiplier);
       if (color == multiplier.name) {
         return multiplier;
       }
